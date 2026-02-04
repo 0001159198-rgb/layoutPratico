@@ -1,6 +1,7 @@
 module com.senai.sistemavendas {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.base;
 
 
     opens com.senai.sistemavendas to javafx.fxml;
